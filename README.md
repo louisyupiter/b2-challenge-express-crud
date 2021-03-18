@@ -45,6 +45,10 @@
 | PUT     | /students/:id | Edit student         |
 | DELETE  | /students/:id | Delete Student       |
 
-Hint:
+### Hint:
 - put: const i = findindex(untuk id), lalu data[i].name == req.body.name
 - delete: pakai built in function .slice
+
+### rules:
+- duedate: jumat
+- cara pengumpulan: biasa di drive, di folder masing2, buat folder challenge-2, baru masukin project nya, zip workspace/projectnya (jangan lupa di zip/rar ya). lalu node_module nya tidak perlu dikumpulkan.
