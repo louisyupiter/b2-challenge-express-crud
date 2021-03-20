@@ -46,7 +46,7 @@
 | DELETE  | /students/:id | Delete Student       |
 
 ### Hint:
-- put: const i = findindex(untuk id), lalu data[i].name == req.body.name
+- put: const i = findindex(untuk id), lalu data[i].name = req.body.name
 - delete: pakai built in function .splice
 
 ### rules:
