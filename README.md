@@ -28,7 +28,7 @@
 	},
 	{
 		"id": 5,
-		"name": "louis",
+		"name": "Echo",
 		"score": 80,
 		"class": "tiga"
 	}
