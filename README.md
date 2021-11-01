@@ -51,4 +51,4 @@
 
 ### rules:
 - duedate: Minggu
-- cara pengumpulan: biasa di drive, di folder masing2, buat folder challenge-2, baru masukin project nya, zip workspace/projectnya (jangan lupa di zip/rar ya). lalu node_module nya tidak perlu dikumpulkan.
+- cara pengumpulan: zip workspace/projectnya (jangan lupa di zip/rar ya). lalu node_module nya tidak perlu dikumpulkan.
