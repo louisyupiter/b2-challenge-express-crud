@@ -35,15 +35,20 @@
 ]
 ```
 
+data json diatas contoh datanya aja.
+jadi nanti pas kalian input bentuk di databasenya seperti itu.
+hiraukan id, karena id terbuat otomatis.
+buat aja schema student punya name, score, class.
+
 ## gunakan req.body dan req.params
 
-| Verb    | Path          | Keterangan           |
-| ------- | ------------- | -------------------- |
-| GET     | /students     | Listing students     |
-| POST    | /students     | Create new student   |
-| GET     | /students/:id | Get certain student  |
-| PUT     | /students/:id | Edit student         |
-| DELETE  | /students/:id | Delete Student       |
+| Verb    | Path          | Keterangan           | Hint                 |
+| ------- | ------------- | -------------------- | -------------------- |
+| GET     | /students     | Listing students     | find()               |
+| POST    | /students     | Create new student   | create()             |
+| GET     | /students/:id | Get certain student  | findbyid()           |
+| PUT     | /students/:id | Edit student         | findbyidandupdate()  |
+| DELETE  | /students/:id | Delete Student       | findbyidanddelete()  |
 
 ### Hint:
 pake mongoose aja karena udah belajar mongoosejs hari ini
