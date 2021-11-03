@@ -46,9 +46,12 @@
 | DELETE  | /students/:id | Delete Student       |
 
 ### Hint:
-- put: const i = findindex(untuk id), lalu data[i].name = req.body.name
-- delete: pakai built in function .splice
+pake mongoose aja karena udah belajar mongoosejs hari ini
+get, find()
+post, create()
+get, findbyid()
+put, findbyidandupdate()
+delete, findbyidanddelete()
 
 ### rules:
-- duedate: Minggu
 - cara pengumpulan: zip workspace/projectnya (jangan lupa di zip/rar ya). lalu node_module nya tidak perlu dikumpulkan.
